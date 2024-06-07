@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457F02042C12F0AB0048E1FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F02032C12F0AB0048E1FD /* AppDelegate.swift */; };
+		457F02062C12F0AB0048E1FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F02052C12F0AB0048E1FD /* SceneDelegate.swift */; };
+		457F02082C12F0AB0048E1FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F02072C12F0AB0048E1FD /* ViewController.swift */; };
+		457F020B2C12F0AB0048E1FD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 457F020A2C12F0AB0048E1FD /* Base */; };
+		457F020D2C12F0AC0048E1FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457F020C2C12F0AC0048E1FD /* Assets.xcassets */; };
+		457F02102C12F0AC0048E1FD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 457F020F2C12F0AC0048E1FD /* Base */; };
+		457F021B2C12F0AD0048E1FD /* batailleNavalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F021A2C12F0AD0048E1FD /* batailleNavalTests.swift */; };
+		457F02252C12F0AD0048E1FD /* batailleNavalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F02242C12F0AD0048E1FD /* batailleNavalUITests.swift */; };
+		457F02272C12F0AD0048E1FD /* batailleNavalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457F02262C12F0AD0048E1FD /* batailleNavalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		457F02172C12F0AD0048E1FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457F01F82C12F0AB0048E1FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457F01FF2C12F0AB0048E1FD;
+			remoteInfo = batailleNaval;
+		};
+		457F02212C12F0AD0048E1FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 457F01F82C12F0AB0048E1FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457F01FF2C12F0AB0048E1FD;
+			remoteInfo = batailleNaval;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		457F02002C12F0AB0048E1FD /* batailleNaval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = batailleNaval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		457F02032C12F0AB0048E1FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		457F02052C12F0AB0048E1FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		457F02072C12F0AB0048E1FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		457F020A2C12F0AB0048E1FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		457F020C2C12F0AC0048E1FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		457F020F2C12F0AC0048E1FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		457F02112C12F0AC0048E1FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457F02162C12F0AD0048E1FD /* batailleNavalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = batailleNavalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		457F021A2C12F0AD0048E1FD /* batailleNavalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batailleNavalTests.swift; sourceTree = "<group>"; };
+		457F02202C12F0AD0048E1FD /* batailleNavalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = batailleNavalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		457F02242C12F0AD0048E1FD /* batailleNavalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batailleNavalUITests.swift; sourceTree = "<group>"; };
+		457F02262C12F0AD0048E1FD /* batailleNavalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batailleNavalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457F01FD2C12F0AB0048E1FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F02132C12F0AD0048E1FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F021D2C12F0AD0048E1FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		457F01F72C12F0AB0048E1FD = {
+			isa = PBXGroup;
+			children = (
+				457F02022C12F0AB0048E1FD /* batailleNaval */,
+				457F02192C12F0AD0048E1FD /* batailleNavalTests */,
+				457F02232C12F0AD0048E1FD /* batailleNavalUITests */,
+				457F02012C12F0AB0048E1FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		457F02012C12F0AB0048E1FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457F02002C12F0AB0048E1FD /* batailleNaval.app */,
+				457F02162C12F0AD0048E1FD /* batailleNavalTests.xctest */,
+				457F02202C12F0AD0048E1FD /* batailleNavalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457F02022C12F0AB0048E1FD /* batailleNaval */ = {
+			isa = PBXGroup;
+			children = (
+				457F02032C12F0AB0048E1FD /* AppDelegate.swift */,
+				457F02052C12F0AB0048E1FD /* SceneDelegate.swift */,
+				457F02072C12F0AB0048E1FD /* ViewController.swift */,
+				457F02092C12F0AB0048E1FD /* Main.storyboard */,
+				457F020C2C12F0AC0048E1FD /* Assets.xcassets */,
+				457F020E2C12F0AC0048E1FD /* LaunchScreen.storyboard */,
+				457F02112C12F0AC0048E1FD /* Info.plist */,
+			);
+			path = batailleNaval;
+			sourceTree = "<group>";
+		};
+		457F02192C12F0AD0048E1FD /* batailleNavalTests */ = {
+			isa = PBXGroup;
+			children = (
+				457F021A2C12F0AD0048E1FD /* batailleNavalTests.swift */,
+			);
+			path = batailleNavalTests;
+			sourceTree = "<group>";
+		};
+		457F02232C12F0AD0048E1FD /* batailleNavalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				457F02242C12F0AD0048E1FD /* batailleNavalUITests.swift */,
+				457F02262C12F0AD0048E1FD /* batailleNavalUITestsLaunchTests.swift */,
+			);
+			path = batailleNavalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457F01FF2C12F0AB0048E1FD /* batailleNaval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457F022A2C12F0AD0048E1FD /* Build configuration list for PBXNativeTarget "batailleNaval" */;
+			buildPhases = (
+				457F01FC2C12F0AB0048E1FD /* Sources */,
+				457F01FD2C12F0AB0048E1FD /* Frameworks */,
+				457F01FE2C12F0AB0048E1FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = batailleNaval;
+			productName = batailleNaval;
+			productReference = 457F02002C12F0AB0048E1FD /* batailleNaval.app */;
+			productType = "com.apple.product-type.application";
+		};
+		457F02152C12F0AD0048E1FD /* batailleNavalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457F022D2C12F0AD0048E1FD /* Build configuration list for PBXNativeTarget "batailleNavalTests" */;
+			buildPhases = (
+				457F02122C12F0AD0048E1FD /* Sources */,
+				457F02132C12F0AD0048E1FD /* Frameworks */,
+				457F02142C12F0AD0048E1FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457F02182C12F0AD0048E1FD /* PBXTargetDependency */,
+			);
+			name = batailleNavalTests;
+			productName = batailleNavalTests;
+			productReference = 457F02162C12F0AD0048E1FD /* batailleNavalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		457F021F2C12F0AD0048E1FD /* batailleNavalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457F02302C12F0AD0048E1FD /* Build configuration list for PBXNativeTarget "batailleNavalUITests" */;
+			buildPhases = (
+				457F021C2C12F0AD0048E1FD /* Sources */,
+				457F021D2C12F0AD0048E1FD /* Frameworks */,
+				457F021E2C12F0AD0048E1FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				457F02222C12F0AD0048E1FD /* PBXTargetDependency */,
+			);
+			name = batailleNavalUITests;
+			productName = batailleNavalUITests;
+			productReference = 457F02202C12F0AD0048E1FD /* batailleNavalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		457F01F82C12F0AB0048E1FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					457F01FF2C12F0AB0048E1FD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					457F02152C12F0AD0048E1FD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 457F01FF2C12F0AB0048E1FD;
+					};
+					457F021F2C12F0AD0048E1FD = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 457F01FF2C12F0AB0048E1FD;
+					};
+				};
+			};
+			buildConfigurationList = 457F01FB2C12F0AB0048E1FD /* Build configuration list for PBXProject "batailleNaval" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 457F01F72C12F0AB0048E1FD;
+			productRefGroup = 457F02012C12F0AB0048E1FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457F01FF2C12F0AB0048E1FD /* batailleNaval */,
+				457F02152C12F0AD0048E1FD /* batailleNavalTests */,
+				457F021F2C12F0AD0048E1FD /* batailleNavalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457F01FE2C12F0AB0048E1FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F020D2C12F0AC0048E1FD /* Assets.xcassets in Resources */,
+				457F02102C12F0AC0048E1FD /* Base in Resources */,
+				457F020B2C12F0AB0048E1FD /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F02142C12F0AD0048E1FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F021E2C12F0AD0048E1FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457F01FC2C12F0AB0048E1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F02082C12F0AB0048E1FD /* ViewController.swift in Sources */,
+				457F02042C12F0AB0048E1FD /* AppDelegate.swift in Sources */,
+				457F02062C12F0AB0048E1FD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F02122C12F0AD0048E1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F021B2C12F0AD0048E1FD /* batailleNavalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		457F021C2C12F0AD0048E1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457F02252C12F0AD0048E1FD /* batailleNavalUITests.swift in Sources */,
+				457F02272C12F0AD0048E1FD /* batailleNavalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		457F02182C12F0AD0048E1FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457F01FF2C12F0AB0048E1FD /* batailleNaval */;
+			targetProxy = 457F02172C12F0AD0048E1FD /* PBXContainerItemProxy */;
+		};
+		457F02222C12F0AD0048E1FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 457F01FF2C12F0AB0048E1FD /* batailleNaval */;
+			targetProxy = 457F02212C12F0AD0048E1FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		457F02092C12F0AB0048E1FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457F020A2C12F0AB0048E1FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		457F020E2C12F0AC0048E1FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457F020F2C12F0AC0048E1FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		457F02282C12F0AD0048E1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		457F02292C12F0AD0048E1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		457F022B2C12F0AD0048E1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DZ4JLVDS8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = batailleNaval/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.batailleNaval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		457F022C2C12F0AD0048E1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DZ4JLVDS8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = batailleNaval/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.batailleNaval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		457F022E2C12F0AD0048E1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DZ4JLVDS8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.batailleNavalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/batailleNaval.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/batailleNaval";
+			};
+			name = Debug;
+		};
+		457F022F2C12F0AD0048E1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DZ4JLVDS8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.batailleNavalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/batailleNaval.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/batailleNaval";
+			};
+			name = Release;
+		};
+		457F02312C12F0AD0048E1FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DZ4JLVDS8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.batailleNavalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = batailleNaval;
+			};
+			name = Debug;
+		};
+		457F02322C12F0AD0048E1FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DZ4JLVDS8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.batailleNavalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = batailleNaval;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		457F01FB2C12F0AB0048E1FD /* Build configuration list for PBXProject "batailleNaval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457F02282C12F0AD0048E1FD /* Debug */,
+				457F02292C12F0AD0048E1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457F022A2C12F0AD0048E1FD /* Build configuration list for PBXNativeTarget "batailleNaval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457F022B2C12F0AD0048E1FD /* Debug */,
+				457F022C2C12F0AD0048E1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457F022D2C12F0AD0048E1FD /* Build configuration list for PBXNativeTarget "batailleNavalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457F022E2C12F0AD0048E1FD /* Debug */,
+				457F022F2C12F0AD0048E1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457F02302C12F0AD0048E1FD /* Build configuration list for PBXNativeTarget "batailleNavalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457F02312C12F0AD0048E1FD /* Debug */,
+				457F02322C12F0AD0048E1FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 457F01F82C12F0AB0048E1FD /* Project object */;
+}
